@@ -73,15 +73,22 @@ nav.navbar .nav-item .nav-link:hover {
 	border-radius: 50%;
 }
 button.nav-link.active {
-	border-bottom: 1px solid #dd3333!important;
+	border-bottom: 1px solid #dd3333 !important;
 }
 .request-img::before {
 	content: '';
-	right: -7%;
+	right: -9%;
 	top: 0;
 	position: absolute;
 	height: 150%;
 	width: 150px;
-	transform: rotate(10deg);
+	transform: rotate(8deg);
 	background-color: #cfe2ff;
+}
+.chat-icon {
+	bottom: 5%;
+	right: 3%;
+	width: max-content;
+	height: fit-content;
+	cursor: pointer;
 }
