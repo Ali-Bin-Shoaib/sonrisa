@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+			integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="./bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+		<script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+		<script src="./assets/js/main.js"></script>
+
+		<title>Sonrisa</title>
+		<style>
+			/* * {
+				outline: 1px solid red;
+			} */
+		</style>
+	</head>
+	<body>
+		<header>
+			<div
+				class="container-fluid py-2 px-5 text-white bg-primary-emphasis align-items-center justify-content-center">
+				<div class="d-flex align-items-center justify-content-between">
+					<div><span class="me-3">}</span> Mon-Sat 8:00 17:30, Sunday-CLOSED</div>
+					<div>
+						<i class="bi-telephone me-3"></i> <span>+654/4715-167</span> <span class="mx-4">.</span
+						><span>allsmiles@qodeinteractive.com</span
+						><span><i class="bi-geo-alt ms-5 me-3"></i><span>63 Wall St, New York, NY 10005</span></span>
+					</div>
+				</div>
+			</div>
+			<!-- navbar -->
+			<nav class="navbar nav p-0 px-5 align-items-start">
+				<a class="navbar-brand m-0 ps-4 ms-5" href="#"
+					><img width="50px" src="./assets/img/logo.svg" alt="logo"
+				/></a>
+				<ul class="nav">
+					<li class="nav-item">
+						<a
+							class="nav-link text-small-caps fs-5 text-primary-emphasis border-3 border-top border-white py-4 px-4"
+							href="home"
+							>home</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link text-small-caps fs-5 text-primary-emphasis border-3 border-top border-white py-4 px-4"
+							href="pages"
+							>pages</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link text-small-caps fs-5 text-primary-emphasis border-3 border-top border-white py-4 px-4"
+							href="staff"
+							>staff</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link text-small-caps fs-5 text-primary-emphasis border-3 border-top border-white py-4 px-4"
+							href="blog"
+							>blog</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link text-small-caps fs-5 text-primary-emphasis border-3 border-top border-white py-4 px-4"
+							href="shop"
+							>shop</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link text-small-caps fs-5 text-primary-emphasis border-3 border-top border-white py-4 px-4"
+							href="landing"
+							>landing</a
+						>
+					</li>
+				</ul>
+				<div class="d-flex align-items-center justify-content-center pt-3 gap-1">
+					<button class="btn text-primary-emphasis text-uppercase me-2">search</button>
+					<div class="bg-danger-subtle p-2 rounded-1"><i class="navbar-toggler-icon"></i></div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!-- Carousel -->
+			<section id="slider" class="carousel slide mb-5" data-bs-ride="carousel">
+				<!-- Indicators/dots -->
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						class="indicator-circle rounded-circle bg-orang active"
+						data-bs-target="#slider"
+						data-bs-slide-to="0"></button>
+					<button
+						type="button"
+						class="indicator-circle rounded-circle bg-primary-subtle"
+						data-bs-target="#slider"
+						data-bs-slide-to="1"></button>
+					<button
+						type="button"
+						class="indicator-circle rounded-circle bg-primary-emphasis"
+						data-bs-target="#slider"
+						data-bs-slide-to="2"></button>
+					<button
+						type="button"
+						class="indicator-circle rounded-circle bg-orang"
+						data-bs-target="#slider"
+						data-bs-slide-to="3"></button>
+				</div>
+
+				<!-- The slideshow/carousel -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./assets/img/image.png" alt="img" class="d-block w-100" />
+						<div class="carousel-caption ms-5 d-flex flex-column align-items-start text-start">
+							<h3 class="bg-orang din fs-5 fw-normal rounded px-2 py-1 text-small-caps">
+								dental practice
+							</h3>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">We provide the best</p>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">services out there</p>
+							<div>
+								<button
+									class="text-white bg-primary-emphasis px-4 py-2 small rounded border-0 me-2 text-small-caps">
+									view more
+								</button>
+								<button class="text-primary-dark bg-white px-4 py-2 small rounded border-0 text-small-caps">
+									purchase
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/img/image.png" alt="img" class="d-block w-100" />
+						<div class="carousel-caption ms-5 d-flex flex-column align-items-start text-start">
+							<h3 class="bg-orang din fs-5 fw-normal rounded px-2 py-1 text-small-caps">
+								dental practice
+							</h3>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">We provide the best</p>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">services out there</p>
+							<div>
+								<button
+									class="text-white bg-primary-emphasis px-4 py-2 small rounded border-0 me-2 text-small-caps">
+									view more
+								</button>
+								<button class="text-primary-dark bg-white px-4 py-2 small rounded border-0 text-small-caps">
+									purchase
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/img/image.png" alt="img" class="d-block w-100" />
+						<div class="carousel-caption ms-5 d-flex flex-column align-items-start text-start">
+							<h3 class="bg-orang din fs-5 fw-normal rounded px-2 py-1 text-small-caps">
+								dental practice
+							</h3>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">We provide the best</p>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">services out there</p>
+							<div>
+								<button
+									class="text-white bg-primary-emphasis px-4 py-2 small rounded border-0 me-2 text-small-caps">
+									view more
+								</button>
+								<button class="text-primary-dark bg-white px-4 py-2 small rounded border-0 text-small-caps">
+									purchase
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/img/image.png" alt="img" class="d-block w-100" />
+						<div class="carousel-caption ms-5 d-flex flex-column align-items-start text-start">
+							<h3 class="bg-orang din fs-5 fw-normal rounded px-2 py-1 text-small-caps">
+								dental practice
+							</h3>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">We provide the best</p>
+							<p class="bg-white text-primary-dark rounded fs-1 fw-medium p-1">services out there</p>
+							<div>
+								<button
+									class="text-white bg-primary-emphasis px-4 py-2 small rounded border-0 me-2 text-small-caps">
+									view more
+								</button>
+								<button class="text-primary-dark bg-white px-4 py-2 small rounded border-0 text-small-caps">
+									purchase
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Left and right controls/icons -->
+				<button
+					class="carousel-control-prev opacity-100"
+					type="button"
+					data-bs-target="#slider"
+					data-bs-slide="prev">
+					<i class="bi-chevron-left bg-white text-primary-dark fs-1"></i>
+				</button>
+				<button
+					class="carousel-control-next opacity-100"
+					type="button"
+					data-bs-target="#slider"
+					data-bs-slide="next">
+					<i class="bi-chevron-right bg-white text-primary-dark fs-1"></i>
+				</button>
+			</section>
+			<!-- Cards -->
+			<section class="container my-5 py-5">
+				<!-- 3cards -->
+				<div class="row gap-2">
+					<div class="col">
+						<div class="card border-0">
+							<img class="card-img" src="./assets/img/h1-img-1.jpg.png" alt="img1" />
+							<h3 class="card-title my-4 text-primary-emphasis">
+								Pick the dentist that fits your needs the best
+							</h3>
+							<p class="card-text text-black-50">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla! Possimus iure cumque
+								quis! Fuga veniam ea earum rerum culpa repellendus dolorem consequuntur temporibus corporis
+							</p>
+							<div class="d-flex align-items-center justify-content-start gap-2">
+								<button class="btn text-primary-dark fw-medium letter-spacing-1 text-uppercase p-0">
+									read more
+								</button>
+								<i class="bi-chevron-right border-read-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0">
+							<img class="card-img" src="./assets/img/h1-img-2.jpg.png" alt="img2" />
+
+							<ul class="list-unstyled card-text mt-4 d-flex flex-column gap-2">
+								<li class="text-black-50 d-flex align-items-center gap-2">
+									<i class="bi-plus text-orang fs-5"></i> Professional dental service 27/7
+								</li>
+								<li class="text-black-50 d-flex align-items-center gap-2">
+									<i class="bi-plus text-orang fs-5"></i> Oral hygiene advisory & assessment
+								</li>
+								<li class="text-black-50 d-flex align-items-center gap-2">
+									<i class="bi-plus text-orang fs-5"></i> Oral and maxillofacial surgery
+								</li>
+								<li class="text-black-50 d-flex align-items-center gap-2">
+									<i class="bi-plus text-orang fs-5"></i> Dental public health insurance
+								</li>
+								<li class="text-black-50 d-flex align-items-center gap-2">
+									<i class="bi-plus text-orang fs-5"></i> Free online appointment booking
+								</li>
+								<li class="text-black-50 d-flex align-items-center gap-2">
+									<i class="bi-plus text-orang fs-5"></i> Various cosmetic dentistry services
+								</li>
+								<li class="text-black-50 d-flex align-items-center gap-2">
+									<i class="bi-plus text-orang fs-5"></i> Special care dentistry services
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card bg-danger-subtle border-0">
+							<div class="card-body p-5">
+								<h3 class="card-title text-capitalize text-primary-emphasis text-center">working hours</h3>
+								<div class="card-text">
+									<div class="d-flex flex-column text-capitalize gap-3 pt-4">
+										<div class="d-flex align-items-baseline justify-content-between">
+											<span>monday</span>
+											<hr class="d-inline-block w-50 border-dashed text-danger" />
+											<span class="text-uppercase">8am-7pm</span>
+										</div>
+										<div class="d-flex align-items-baseline justify-content-between">
+											<span>tuesday</span>
+											<hr class="d-inline-block w-50 border-dashed text-danger" />
+											<span class="text-uppercase">8am-7pm</span>
+										</div>
+										<div class="d-flex align-items-baseline justify-content-between">
+											<span>wednesday</span>
+											<hr class="d-inline-block w-50 border-dashed text-danger" />
+											<span class="text-uppercase">8am-7pm</span>
+										</div>
+										<div class="d-flex align-items-baseline justify-content-between">
+											<span>thursday</span>
+											<hr class="d-inline-block w-50 border-dashed text-danger" />
+											<span class="text-uppercase">8am-7pm</span>
+										</div>
+										<div class="d-flex align-items-baseline justify-content-between">
+											<span>friday</span>
+											<hr class="d-inline-block w-50 border-dashed text-danger" />
+											<span class="text-uppercase">8am-7pm</span>
+										</div>
+										<div class="d-flex align-items-baseline justify-content-between">
+											<span>saturday</span>
+											<hr class="d-inline-block w-50 border-dashed text-danger" />
+											<span class="text-uppercase">8am-7pm</span>
+										</div>
+										<div class="d-flex align-items-baseline justify-content-between">
+											<span>sunday</span>
+											<hr class="d-inline-block w-50 border-dashed text-danger" />
+											<span class="text-uppercase">8am-7pm</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer bg-primary-emphasis">
+								<button class="btn w-100 text-white p-2 text-capitalize">
+									call us: +354/759-1675<i></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- services  -->
+				<div class="row gap-2 my-5">
+					<div class="col">
+						<img class="float-start me-4" src="./assets/img/h1-icon-img-1.png.svg" alt="img" />
+						<h4 class="text-capitalize text-primary-dark">root canal specialist</h4>
+						<p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					</div>
+					<div class="col">
+						<img class="float-start me-4" src="./assets/img/h1-icon-img-2.png.svg" alt="img" />
+						<h4 class="text-capitalize text-primary-dark">alignment specialist</h4>
+						<p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					</div>
+					<div class="col">
+						<img class="float-start me-4" src="./assets/img/h1-icon-img-3.png.svg" alt="img" />
+						<h4 class="text-capitalize text-primary-dark">cosmetic dentistry</h4>
+						<p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="row gap-2">
+					<div class="col">
+						<img class="float-start me-4" src="./assets/img/h1-icon-img-4-1.png.svg" alt="img" />
+						<h4 class="text-capitalize text-primary-dark">oral hygiene experts</h4>
+						<p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					</div>
+					<div class="col">
+						<img class="float-start me-4" src="./assets/img/h1-icon-img-5-1.png.svg" alt="img" />
+						<h4 class="text-capitalize text-primary-dark">live dental advisory</h4>
+						<p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					</div>
+					<div class="col">
+						<img class="float-start me-4" src="./assets/img/h1-icon-img-6.png.svg" alt="img" />
+						<h4 class="text-capitalize text-primary-dark">cavity inspection</h4>
+						<p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					</div>
+				</div>
+			</section>
+			<!-- what people say -->
+			<section class="container-fluid my-5 py-5">
+				<div class="row bg-primary-subtle">
+					<div class="col d-flex align-items-center justify-content-center">
+						<div class="w-50">
+							<h6 class="text-small-caps letter-spacing-1 text-orang">dental practice</h6>
+							<h1 class="text-primary-dark pe-4">Fully dedicated to your dental health</h1>
+							<p class="text-black-50">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam totam facere minima nam,
+								expedita hic quis rem quod culpa pariatur, corporis, suscipit fugiat illum perferendis id
+								quo? Unde sunt pariatur, nulla omnis doloremque doloribus ducimus, sapiente vel,
+								necessitatibus aliquid vero?
+							</p>
+							<h4 class="text-orang">Andrea McCollins</h4>
+						</div>
+					</div>
+					<div class="col p-0 position-relative">
+						<img class="img-fluid" src="./assets/img/div.elementor-column-wrap.png" alt="" />
+						<button
+							class="btn btn-lg fs-1 bg-white btn-circle-5 rounded-circle position-absolute bottom-50 start-50">
+							<i class="bi-play text-orang"></i>
+						</button>
+					</div>
+				</div>
+				<div class="row my-5">
+					<div class="col-12">
+						<div class="d-flex flex-column align-items-center justify-content-center">
+							<h5 class="text-small-caps text-orang letter-spacing-1">our dear clients</h5>
+							<h1 class="text-primary-dark text-capitalize">what people say</h1>
+							<p class="text-black-50">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad neque perspiciatis unde.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- custom slider -->
+				<div class="row mx-5">
+					<button class="btn border-0 col-1 d-flex align-items-center justify-content-center">
+						<i class="bi-chevron-left text-primary-dark fs-5"></i>
+					</button>
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								<div
+									class="position-relative d-flex flex-column gap-3 align-items-center justify-content-center text-center">
+									<i
+										class="bi-quote position-absolute start-50 offset-1 top-0 bg-primary-emphasis text-white rounded p-1"></i>
+									<img
+										src="./assets/img/h1-testimonials-img-2-1.png.png"
+										alt="jenna johnson"
+										width="150px" />
+									<h3 class="text-primary-dark">Quick, easy & reliable</h3>
+									<p class="text-black-50">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident natus quas facilis,
+										ratione molestias commodi.
+									</p>
+									<h6 class="text-orang text-small-caps letter-spacing-1">jenna johnson</h6>
+								</div>
+							</div>
+							<div class="col">
+								<div
+									class="position-relative d-flex flex-column gap-3 align-items-center justify-content-center text-center">
+									<i
+										class="bi-quote position-absolute start-50 offset-1 top-0 bg-primary-emphasis text-white rounded p-1"></i>
+									<img
+										src="./assets/img/h1-testimonials-img-1-1.png.png"
+										alt="jenna johnson"
+										width="150px" />
+									<h3 class="text-primary-dark">The best clinic in town</h3>
+									<p class="text-black-50">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident natus quas facilis,
+										ratione molestias commodi.
+									</p>
+									<h6 class="text-orang text-small-caps letter-spacing-1">ropert logan</h6>
+								</div>
+							</div>
+							<div class="col">
+								<div
+									class="position-relative d-flex flex-column gap-3 align-items-center justify-content-center text-center">
+									<i
+										class="bi-quote position-absolute start-50 offset-1 top-0 bg-primary-emphasis text-white rounded p-1"></i>
+									<img
+										src="./assets/img/h1-testimonials-img-3-1.png.png"
+										alt="jenna johnson"
+										width="150px" />
+									<h3 class="text-primary-dark">The true professionals</h3>
+									<p class="text-black-50">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident natus quas facilis,
+										ratione molestias commodi.
+									</p>
+									<h6 class="text-orang text-small-caps letter-spacing-1">august johns</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="btn border-0 col-1 d-flex align-items-center justify-content-center">
+						<i class="bi-chevron-right text-primary-dark fs-5"></i>
+					</button>
+				</div>
+				<div class="row position-relative my-5">
+					<div class="col my-3">
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								class="indicator-circle rounded-circle bg-orang active"
+								data-bs-target="#slider"
+								data-bs-slide-to="0"></button>
+							<button
+								type="button"
+								class="indicator-circle rounded-circle bg-primary-subtle"
+								data-bs-target="#slider"
+								data-bs-slide-to="1"></button>
+							<button
+								type="button"
+								class="indicator-circle rounded-circle bg-primary-emphasis"
+								data-bs-target="#slider"
+								data-bs-slide-to="2"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- discount  -->
+			<section class="container-fluid bg-primary-emphasis text-white">
+				<div class="container py-5 d-flex align-items-center justify-content-between">
+					<div class="">
+						<h2>Discount dental plans save you <span class="text-orang">up to 60%</span></h2>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero est pariatur temporibus libero
+						</p>
+					</div>
+
+					<button
+						class="btn btn-lg fw-semibold bg-white text-primary-dark px-5 py-3 text-small-caps letter-spacing-1">
+						learn more
+					</button>
+				</div>
+			</section>
+			<!-- services tap -->
+			<section class="container-fluid bg-danger-subtle p-5">
+				<!--  -->
+				<div class="container">
+					<ul class="nav nav-tabs border-bottom border-danger-subtle" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link active text-primary-dark text-capitalize bg-danger-subtle border-0 px-5"
+								id="home-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#home-tab-pane"
+								type="button"
+								role="tab"
+								aria-controls="home-tab-pane"
+								aria-selected="true">
+								root canal specialist
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link text-primary-dark text-capitalize bg-danger-subtle border-0 border-red px-5"
+								id="profile-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#profile-tab-pane"
+								type="button"
+								role="tab"
+								aria-controls="profile-tab-pane"
+								aria-selected="false">
+								alignment specialist
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link text-primary-dark text-capitalize bg-danger-subtle border-0 border-red px-5"
+								id="contact-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#contact-tab-pane"
+								type="button"
+								role="tab"
+								aria-controls="contact-tab-pane"
+								aria-selected="false">
+								cosmetic dentistry
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link text-primary-dark text-capitalize bg-danger-subtle border-0 border-red px-5"
+								id="disabled-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#disabled-tab-pane"
+								type="button"
+								role="tab"
+								aria-controls="disabled-tab-pane"
+								aria-selected="false">
+								live dental advisory
+							</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div
+							class="tab-pane fade show active"
+							id="home-tab-pane"
+							role="tabpanel"
+							aria-labelledby="home-tab"
+							tabindex="0">
+							<div class="d-flex justify-content-between my-5">
+								<div class="w-50">
+									<h1 class="text-primary-dark">Fast & professional treatments for every patient</h1>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum inventore at
+										vero voluptatem obcaecati blanditiis saepe, dolores non eos est, iure eius ipsa dolore.
+									</p>
+									<small>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus repudiandae
+										voluptatum corrupti? Architecto earum explicabo odio saepe, ipsa vero, eaque nulla error
+										voluptates doloremque possimus quas, voluptate iste ab.
+									</small>
+								</div>
+								<img src="./assets/img/h1-tabs-img-1.jpg.png" class="w-25" alt="" />
+							</div>
+						</div>
+						<div
+							class="tab-pane fade"
+							id="profile-tab-pane"
+							role="tabpanel"
+							aria-labelledby="profile-tab"
+							tabindex="0">
+							<div class="d-flex justify-content-between my-5">
+								<div class="w-50">
+									<h1 class="text-primary-dark">Fast & professional treatments for every patient</h1>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum inventore at
+										vero voluptatem obcaecati blanditiis saepe, dolores non eos est, iure eius ipsa dolore.
+									</p>
+									<small>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus repudiandae
+										voluptatum corrupti? Architecto earum explicabo odio saepe, ipsa vero, eaque nulla error
+										voluptates doloremque possimus quas, voluptate iste ab.
+									</small>
+								</div>
+								<img src="./assets/img/h1-tabs-img-1.jpg.png" class="w-25" alt="" />
+							</div>
+						</div>
+						<div
+							class="tab-pane fade"
+							id="contact-tab-pane"
+							role="tabpanel"
+							aria-labelledby="contact-tab"
+							tabindex="0">
+							<div class="d-flex justify-content-between my-5">
+								<div class="w-50">
+									<h1 class="text-primary-dark">Fast & professional treatments for every patient</h1>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum inventore at
+										vero voluptatem obcaecati blanditiis saepe, dolores non eos est, iure eius ipsa dolore.
+									</p>
+									<small>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus repudiandae
+										voluptatum corrupti? Architecto earum explicabo odio saepe, ipsa vero, eaque nulla error
+										voluptates doloremque possimus quas, voluptate iste ab.
+									</small>
+								</div>
+								<img src="./assets/img/h1-tabs-img-1.jpg.png" class="w-25" alt="" />
+							</div>
+						</div>
+						<div
+							class="tab-pane fade"
+							id="disabled-tab-pane"
+							role="tabpanel"
+							aria-labelledby="disabled-tab"
+							tabindex="0">
+							<div class="d-flex justify-content-between my-5">
+								<div class="w-50">
+									<h1 class="text-primary-dark">Fast & professional treatments for every patient</h1>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum inventore at
+										vero voluptatem obcaecati blanditiis saepe, dolores non eos est, iure eius ipsa dolore.
+									</p>
+									<small>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus repudiandae
+										voluptatum corrupti? Architecto earum explicabo odio saepe, ipsa vero, eaque nulla error
+										voluptates doloremque possimus quas, voluptate iste ab.
+									</small>
+								</div>
+								<img src="./assets/img/h1-tabs-img-1.jpg.png" class="w-25" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- taps -->
+			</section>
+			<!-- meet our expert  -->
+			<section>
+				<div class="container text-center w-50 my-5">
+					<h5 class="text-orang text-small-caps letter-spacing-1">the allsiles team</h5>
+					<h1 class="text-primary-dark text-capitalize">meet our experts</h1>
+					<p class="text-black-50">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perspiciatis commodi ea officiis,
+						beatae quod odit at molestias praesentium soluta!
+					</p>
+				</div>
+				<div class="container d-flex justify-content-between">
+					<div
+						class="d-flex flex-column w-25 align-items-center justify-content-center gap-4 position-relative">
+						<i
+							class="bi-share position-absolute start-0 offset-1 top-0 bg-primary-emphasis text-white rounded p-2"></i>
+
+						<img class="w-75" src="./assets/img/team-img-1.jpg.png" alt="img" />
+
+						<div>
+							<h5 class="text-primary-dark text-capitalize">howard holmes</h5>
+							<h6 class="text-orang text-small-caps letter-spacing-1">estetic dentist</h6>
+						</div>
+					</div>
+					<div
+						class="d-flex flex-column w-25 align-items-center justify-content-center gap-4 position-relative">
+						<img class="w-75" src="./assets/img/team-img-2-1.jpg.png" alt="img" />
+						<i
+							class="bi-share position-absolute start-0 offset-1 top-0 bg-primary-emphasis text-white rounded p-2"></i>
+
+						<div>
+							<h5 class="text-primary-dark text-capitalize">ella thompson</h5>
+							<h6 class="text-orang text-small-caps letter-spacing-1">dental technican</h6>
+						</div>
+					</div>
+					<div
+						class="d-flex flex-column w-25 align-items-center justify-content-center gap-4 position-relative">
+						<img class="w-75" src="./assets/img/team-img-3.jpg.png" alt="img" />
+						<i
+							class="bi-share position-absolute start-0 offset-1 top-0 bg-primary-emphasis text-white rounded p-2"></i>
+
+						<div>
+							<h5 class="text-primary-dark text-capitalize">vincent cooper</h5>
+							<h6 class="text-orang text-small-caps letter-spacing-1">estetic dentist</h6>
+						</div>
+					</div>
+					<div
+						class="d-flex flex-column w-25 align-items-center justify-content-center gap-4 position-relative">
+						<img class="w-75" src="./assets/img/team-img-4.jpg.png" alt="img" />
+						<i
+							class="bi-share position-absolute start-0 offset-1 top-0 bg-primary-emphasis text-white rounded p-2"></i>
+
+						<div>
+							<h5 class="text-primary-dark text-capitalize">danielle bryant</h5>
+							<h6 class="text-orang text-small-caps letter-spacing-1">dental technican</h6>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- request appointment -->
+			<section class="container-fluid my-5 p-5">
+				<div class="row bg-primary-subtle">
+					<div class="col p-0 position-relative request-img overflow-hidden">
+						<img
+							class="img-fluid request-img"
+							src="./assets/img/div.elementor-column-wrap (1).png"
+							alt="" />
+					</div>
+
+					<div class="col d-flex align-items-center justify-content-center">
+						<div class="w-75">
+							<h1 class="text-primary-dark pe-4">Request an Appointment</h1>
+
+							<p class="text-black-50">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quasi?
+							</p>
+							<form class="form p-2 m-2">
+								<div class="row">
+									<div class="col p-0 me-3">
+										<input
+											type="text"
+											class="form-control bg-primary-subtle border-1 border-gray"
+											placeholder="First Name" />
+									</div>
+									<div class="col p-0">
+										<input
+											type="text"
+											class="form-control bg-primary-subtle border-1 border-gray"
+											placeholder="Last Name" />
+									</div>
+								</div>
+								<div class="row my-3">
+									<div class="col p-0 me-3">
+										<input
+											type="email"
+											class="form-control bg-primary-subtle border-1 border-gray"
+											placeholder="E-Mail Address" />
+									</div>
+									<div class="col p-0">
+										<input
+											type="tel"
+											class="form-control bg-primary-subtle border-1 border-gray"
+											placeholder="Phone Number" />
+									</div>
+								</div>
+								<div class="row my-3">
+									<textarea class="form-control bg-primary-subtle border-1 border-gray" rows="5"></textarea>
+								</div>
+								<div class="row">
+									<button
+										class="btn col-4 bg-primary-emphasis text-white text-small-caps letter-spacing-1 py-2 px-4 small">
+										send request
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- read latest news -->
+			<section class="container my-5 py-5">
+				<div class="d-flex flex-column align-items-center justify-content-center gap-1">
+					<h5 class="text-orang text-small-caps letter-spacing-1">dental practice</h5>
+					<h1 class="text-primary-dark text-capitalize">read latest news</h1>
+					<p class="text-black-50">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, sit?
+					</p>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="card border-0 d-flex flex-column text-start gap-3">
+							<img class="card-img" src="./assets/img/h1-blog-list-img1.jpg.png" alt="img" />
+							<div>
+								<h6 class="text-orang text-uppercase small letter-spacing-1">
+									17th november 2020, pediatric
+								</h6>
+								<h3 class="text-primary-dark">All about invisalign</h3>
+							</div>
+							<p class="text-black-50">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam iste in nulla molestiae
+								deleniti facere dignissimo
+							</p>
+							<div class="d-flex align-items-center">
+								<button class="btn text-uppercase text-small-caps">read more</button>
+								<i class="bi-chevron-right border-read-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0 d-flex flex-column text-start gap-3">
+							<img class="card-img" src="./assets/img/h1-blog-list-img2.jpg.png" alt="img" />
+							<div>
+								<h6 class="text-orang text-uppercase small letter-spacing-1">
+									17th november 2020, pediatric
+								</h6>
+								<h3 class="text-primary-dark">Braces for teens</h3>
+							</div>
+							<p class="text-black-50">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam iste in nulla molestiae
+								deleniti facere dignissimo
+							</p>
+							<div class="d-flex align-items-center">
+								<button class="btn text-uppercase text-small-caps">read more</button>
+								<i class="bi-chevron-right border-read-more"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0 d-flex flex-column text-start gap-3">
+							<img class="card-img" src="./assets/img/h1-blog-list-img3.jpg.png" alt="img" />
+							<div>
+								<h6 class="text-orang text-uppercase small letter-spacing-1">
+									17th november 2020, pediatric
+								</h6>
+								<h3 class="text-primary-dark">Dental association</h3>
+							</div>
+							<p class="text-black-50">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam iste in nulla molestiae
+								deleniti facere dignissimo
+							</p>
+							<div class="d-flex align-items-center">
+								<button class="btn text-uppercase text-small-caps">read more</button>
+								<i class="bi-chevron-right border-read-more"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- footer -->
+			<footer class="bg-danger-subtle my-5 py-5">
+				<div class="d-flex justify-content-around">
+					<img src="./assets/img/team-clients-img1.png.svg" alt="" />
+					<img src="./assets/img/team-clients-img2.png.svg" alt="" />
+					<img src="./assets/img/team-clients-img3.png.svg" alt="" />
+					<img src="./assets/img/team-clients-img4.png.svg" alt="" />
+					<img src="./assets/img/team-clients-img5.png.svg" alt="" />
+					<img src="./assets/img/team-clients-img6.png.svg" alt="" />
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>
