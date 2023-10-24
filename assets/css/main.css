@@ -92,3 +92,7 @@ button.nav-link.active {
 	height: fit-content;
 	cursor: pointer;
 }
+
+.bottom-5{
+	bottom: -5rem;
+}
