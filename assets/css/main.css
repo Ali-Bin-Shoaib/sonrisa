@@ -37,9 +37,9 @@ nav.navbar .nav-item .nav-link:hover {
 .border-dashed {
 	border-style: dashed !important;
 }
-.border-red {
+/* .border-red {
 	border-color: #dd3333 !important;
-}
+} */
 .border-gray {
 	border-color: #c2c2c4 !important;
 }
@@ -72,8 +72,8 @@ nav.navbar .nav-item .nav-link:hover {
 	border-color: #1f2d78 !important;
 	border-radius: 50%;
 }
-button.nav-link.active {
-	border-bottom: 1px solid #dd3333 !important;
+.nav-link.active {
+	border-bottom: 2px solid #dd3333 !important;
 }
 .request-img::before {
 	content: '';
